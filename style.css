@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: blue;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+
+      scroll-snap-type: y mandatory;
+      overflow: scroll;
+}
+.container section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.container section:nth-of-type(1) {
+  background-color: 0;
+  color: 17;
+}
+.container section:nth-of-type(2) {
+  background-color: 0;
+  color: 0;
+}
+.container section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15em;
+}/*# sourceMappingURL=style.css.map */
